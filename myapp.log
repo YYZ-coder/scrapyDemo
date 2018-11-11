@@ -1,0 +1,85 @@
+Scrapy 1.5.1 started (bot: xiaohua)
+Versions: lxml 4.2.5.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.5.1, w3lib 1.19.0, Twisted 18.9.0, Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)], pyOpenSSL 18.0.0 (OpenSSL 1.1.0i  14 Aug 2018), cryptography 2.3.1, Platform Windows-10-10.0.17134-SP0
+Overridden settings: {'BOT_NAME': 'xiaohua', 'NEWSPIDER_MODULE': 'xiaohua.spiders', 'SPIDER_MODULES': ['xiaohua.spiders'], 'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.3964.2 Safari/537.36'}
+Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'xiaohua.middlewares.XiaohuaSpiderMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+Enabled item pipelines:
+['xiaohua.pipelines.XiaohuaPipeline']
+Spider opened
+Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+Spider opened: xh
+Telnet console listening on 127.0.0.1:6023
+Crawled (200) <GET http://www.dianping.com/shenzhen/ch90> (referer: None)
+[<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>, <Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>, <Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>, <Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>, <Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>, <Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>, <Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>, <Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>]
+<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>
+{'categoryId': 'category_id=29',
+ 'name': '福田区',
+ 'url': '//www.dianping.com/shenzhen/ch90/r29'}
+<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>
+{'categoryId': 'category_id=30',
+ 'name': '罗湖区',
+ 'url': '//www.dianping.com/shenzhen/ch90/r30'}
+<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>
+{'categoryId': 'category_id=31',
+ 'name': '南山区',
+ 'url': '//www.dianping.com/shenzhen/ch90/r31'}
+<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>
+{'categoryId': 'category_id=32',
+ 'name': '盐田区',
+ 'url': '//www.dianping.com/shenzhen/ch90/r32'}
+<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>
+{'categoryId': 'category_id=33',
+ 'name': '宝安区',
+ 'url': '//www.dianping.com/shenzhen/ch90/r33'}
+<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>
+{'categoryId': 'category_id=34',
+ 'name': '龙岗区',
+ 'url': '//www.dianping.com/shenzhen/ch90/r34'}
+<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>
+{'categoryId': 'category_id=12033',
+ 'name': '龙华区',
+ 'url': '//www.dianping.com/shenzhen/ch90/r12033'}
+<Selector xpath='//div[@class="shopsearch"]/div[@class="type"][2]/div[@class="content"]/ul/li' data='<li class="">\n                          '>
+{'categoryId': 'category_id=12035',
+ 'name': '坪山区',
+ 'url': '//www.dianping.com/shenzhen/ch90/r12035'}
+Closing spider (finished)
+Dumping Scrapy stats:
+{'downloader/request_bytes': 335,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 17663,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 11, 11, 13, 24, 26, 287887),
+ 'log_count/DEBUG': 19,
+ 'log_count/INFO': 8,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2018, 11, 11, 13, 24, 25, 626255)}
+Spider closed (finished)
